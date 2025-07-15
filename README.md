@@ -45,14 +45,14 @@ Source: https://learn.deeplearning.ai/courses/red-teaming-llm-applications
 
 ### Option 1: Local Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/yourusername/Gen-AI-Playground.git
 cd Gen-AI-Playground
 ```
 
 2.  **Create and Activate Virtual Environment:**
-    ```bash
+```bash
     python -m venv venv
     # On macOS/Linux:
     source venv/bin/activate
@@ -60,7 +60,7 @@ cd Gen-AI-Playground
     venv\Scripts\activate.bat
     # On Windows (PowerShell):
     .\venv\Scripts\Activate.ps1
-    ```
+```
 3.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
